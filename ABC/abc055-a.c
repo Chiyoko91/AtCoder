@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(void)
+{
+int n,x,y;
+
+scanf("%d",&n);
+
+x = n * 800;
+
+y = n % 15 * 200;
+
+printf("%d",x-y);
+
+  return 0;
+}
